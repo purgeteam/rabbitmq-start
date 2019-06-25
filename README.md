@@ -9,11 +9,15 @@
 
 ### 参考
 https://www.cnblogs.com/fanqisoft/p/10402607.html
-
-### 创建多个RabbitMQ容器
+### 创建RabbitMQ容器 单机模式
 ```text
 cd service/docker-start
 sh rabbitmq.sh
+```
+### 创建多个RabbitMQ容器 集群模式
+```text
+cd service/docker-start
+sh rabbitmq-cluster.sh
 ```
 
 ```text
